@@ -1,6 +1,6 @@
-package com.almeida.springdemo.spring5demo.repositories;
+package com.almeida.springdemo.repositories;
 
-import com.almeida.springdemo.spring5demo.model.Author;
+import com.almeida.springdemo.model.Author;
 import org.springframework.data.repository.CrudRepository;
 
 public interface AuthorRepository extends CrudRepository<Author, Long> {

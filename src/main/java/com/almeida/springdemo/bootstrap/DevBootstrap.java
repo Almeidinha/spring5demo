@@ -1,11 +1,11 @@
-package com.almeida.springdemo.spring5demo.bootstrap;
+package com.almeida.springdemo.bootstrap;
 
-import com.almeida.springdemo.spring5demo.model.Author;
-import com.almeida.springdemo.spring5demo.model.Book;
-import com.almeida.springdemo.spring5demo.model.Publisher;
-import com.almeida.springdemo.spring5demo.repositories.AuthorRepository;
-import com.almeida.springdemo.spring5demo.repositories.BookRepository;
-import com.almeida.springdemo.spring5demo.repositories.PublisherRepository;
+import com.almeida.springdemo.model.Author;
+import com.almeida.springdemo.model.Book;
+import com.almeida.springdemo.model.Publisher;
+import com.almeida.springdemo.repositories.AuthorRepository;
+import com.almeida.springdemo.repositories.BookRepository;
+import com.almeida.springdemo.repositories.PublisherRepository;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;

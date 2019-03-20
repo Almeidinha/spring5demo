@@ -1,6 +1,6 @@
-package com.almeida.springdemo.spring5demo.repositories;
+package com.almeida.springdemo.repositories;
 
-import com.almeida.springdemo.spring5demo.model.Book;
+import com.almeida.springdemo.model.Book;
 import org.springframework.data.repository.CrudRepository;
 
 public interface BookRepository extends CrudRepository<Book, Long> {

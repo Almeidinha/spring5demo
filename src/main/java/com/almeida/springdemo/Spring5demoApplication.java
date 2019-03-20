@@ -1,11 +1,7 @@
-package com.almeida.springdemo.spring5demo;
+package com.almeida.springdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.jdbc.datasource.DriverManagerDataSource;
-
-import javax.sql.DataSource;
 
 @SpringBootApplication
 public class Spring5demoApplication {

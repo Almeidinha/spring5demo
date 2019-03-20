@@ -1,4 +1,4 @@
-package com.almeida.springdemo.spring5demo;
+package com.almeida.springdemo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

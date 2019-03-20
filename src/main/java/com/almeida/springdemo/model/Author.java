@@ -1,4 +1,4 @@
-package com.almeida.springdemo.spring5demo.model;
+package com.almeida.springdemo.model;
 
 import javax.persistence.*;
 import java.util.HashSet;
